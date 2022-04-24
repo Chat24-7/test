@@ -22,6 +22,10 @@
        "commit-msg": "prefix-commit-jira-id"
      }
   },
+  "prefixCommitId": {
+    "pattern": "^(?:feature|bugfix)/my-name/(\\d+)",
+    "prefix": "#ID: "
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
