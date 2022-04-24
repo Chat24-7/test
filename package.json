@@ -18,7 +18,7 @@
     "eject": "react-scripts eject"
   },
   "jira-prepare-commit-msg": {
-    "messagePattern": "[$J]\n$M",
+    "messagePattern": "[$J] $M",
     "jiraTicketPattern": "([A-Z]+-\\d+)",
     "commentChar": "#",
     "isConventionalCommit": false,
