@@ -13,7 +13,6 @@ function App() {
           test 3
           test 4
           test 5
-          test 6
         </p>
         <a
           className="App-link"
