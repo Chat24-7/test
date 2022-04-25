@@ -17,6 +17,18 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "jira-prepare-commit-msg": {
+    "messagePattern": "[$J]\n$M",
+    "jiraTicketPattern": "([A-Z]+-\\d+)",
+    "commentChar": "#",
+    "isConventionalCommit": false,
+    "allowEmptyCommitMessage": false
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "jira-prepare-commit-msg"
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -34,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "jira-prepare-commit-msg": "^1.6.2"
   }
 }
