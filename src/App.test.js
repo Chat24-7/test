@@ -16,8 +16,3 @@ test('renders learn react link', () => {
 
 // yusuf second commit
 
-// 111111
-
-// 222222
-
-// 333333
